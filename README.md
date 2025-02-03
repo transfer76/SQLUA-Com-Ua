@@ -81,3 +81,23 @@ This project utilizes Rubocop for linting standards. Linting can be performed wi
 
     - when you execute `git push`, call bundler-leak and bundler-audit before doing so. 
     if bundler-leak and bundler-audit run with exceptions, your push will not be executed.
+
+## Configure rails credentials
+
+### How to get keys from encrypted environments
+There are 4 environments with their own keys: development, test, staging and production.
+1. Open rails console for necessary environment(for instance, **rails c -e production**);
+2. **Rails.application.credentials.config** command - demonstation of all data from config/credentials/*.yml.enc file;
+3. **Rails.application.credentials.config[:secret_key_base]** command - demonstration of environment key;
+
+Database params from console:
+* Rails.application.credentials.config[:database_name]
+* Rails.application.credentials.config[:database_url]
+* Rails.application.credentials.config[:database_host]
+* Rails.application.credentials.config[:database_username]
+* Rails.application.credentials.config[:database_password]
+
+### How to add or update credentials
+
+You need a text editor(VIM) for next command:
+**EDITOR=vim rails credentials:edit --environment <name_of_environment>**

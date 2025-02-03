@@ -20,5 +20,6 @@
 /public/assets
 
 /config/master.key
+/config/credentials/**.key
 
 .ruby-gemset
