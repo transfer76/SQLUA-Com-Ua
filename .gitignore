@@ -20,5 +20,11 @@
 /public/assets
 
 /config/master.key
+<<<<<<< HEAD
 
 .ruby-gemset
+=======
+/config/credentials/**.key
+
+.ruby-gemset
+>>>>>>> New_credentials
