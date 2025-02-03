@@ -354,8 +354,8 @@ GEM
     stimulus-rails (1.3.4)
       railties (>= 6.0.0)
     stringio (3.1.2)
-    strong_migrations (0.8.0)
-      activerecord (>= 5.2)
+    strong_migrations (2.2.0)
+      activerecord (>= 7)
     thor (1.3.2)
     thruster (0.1.10)
     thruster (0.1.10-aarch64-linux)
@@ -429,7 +429,7 @@ DEPENDENCIES
   spring (~> 4.2)
   spring-watcher-listen (~> 2.0)
   stimulus-rails
-  strong_migrations (~> 0.8)
+  strong_migrations (~> 2.2)
   thruster
   traceroute (~> 0.8)
   turbo-rails
