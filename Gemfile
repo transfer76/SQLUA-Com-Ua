@@ -35,7 +35,7 @@ group :development, :test do
   gem 'pry-stack_explorer', '~> 0.6'
   gem 'rubocop', '~> 1.71'
   gem 'rubocop-performance', '~> 1.21'
-  gem 'rubocop-rails', '~> 2.23'
+  gem 'rubocop-rails', '~> 2.29'
   gem 'strong_migrations', '~> 0.8'
   gem 'traceroute', '~> 0.8'
 end
