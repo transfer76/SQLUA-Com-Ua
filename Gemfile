@@ -42,7 +42,7 @@ end
 
 group :development do
   gem 'puma', '>= 5.0'
-  gem 'spring', '~> 4.2'
+  gem 'spring', '~> 4.3'
   gem 'spring-watcher-listen', '~> 2.0'
 end
 
