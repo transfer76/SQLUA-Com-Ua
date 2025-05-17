@@ -12,7 +12,7 @@ gem 'jbuilder'
 gem 'kamal', require: false
 gem 'pg', '~> 1.1'
 gem 'propshaft'
-gem 'rails', '~> 8.0.1'
+gem 'rails', '~> 8.0.2'
 gem 'solid_cable'
 gem 'solid_cache'
 gem 'solid_queue'
@@ -42,7 +42,7 @@ end
 
 group :development do
   gem 'puma', '>= 5.0'
-  gem 'spring', '~> 4.2'
+  gem 'spring', '~> 4.3'
   gem 'spring-watcher-listen', '~> 2.0'
 end
 
