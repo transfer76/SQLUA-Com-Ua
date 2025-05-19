@@ -29,7 +29,7 @@ group :development, :test do
   gem 'lefthook', '~> 1.11'
   gem 'listen', '~> 3.3'
   gem 'pry', '~> 0.14'
-  gem 'pry-byebug', '~> 3.10'
+  gem 'pry-byebug', '~> 3.11'
   gem 'pry-doc', '~> 1.1'
   gem 'pry-rails', '~> 0.3'
   gem 'pry-stack_explorer', '~> 0.6'
