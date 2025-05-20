@@ -28,7 +28,7 @@ group :development, :test do
   gem 'debug', platforms: %i[mri windows], require: 'debug/prelude'
   gem 'lefthook', '~> 1.11'
   gem 'listen', '~> 3.3'
-  gem 'pry', '~> 0.14'
+  gem 'pry', '~> 0.15'
   gem 'pry-byebug', '~> 3.11'
   gem 'pry-doc', '~> 1.1'
   gem 'pry-rails', '~> 0.3'
