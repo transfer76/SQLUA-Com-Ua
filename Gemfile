@@ -36,7 +36,7 @@ group :development, :test do
   gem 'rubocop', '~> 1.77'
   gem 'rubocop-performance', '~> 1.25'
   gem 'rubocop-rails', '~> 2.32'
-  gem 'strong_migrations', '~> 2.3'
+  gem 'strong_migrations', '~> 2.4'
   gem 'traceroute', '~> 0.8'
 end
 
