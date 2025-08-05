@@ -10,7 +10,7 @@ gem 'bootsnap', require: false
 gem 'importmap-rails'
 gem 'jbuilder'
 gem 'kamal', require: false
-gem 'pg', '~> 1.1'
+gem 'pg', '~> 1.6'
 gem 'propshaft'
 gem 'rails', '~> 8.0.2'
 gem 'solid_cable'
